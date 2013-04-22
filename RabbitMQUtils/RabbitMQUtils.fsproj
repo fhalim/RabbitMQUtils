@@ -38,11 +38,14 @@
   <ItemGroup>
     <Reference Include="mscorlib" />
     <Reference Include="RestSharp">
-      <HintPath>C:\Users\fawad\Documents\Visual Studio 2012\Projects\RabbitMQUtils\packages\RestSharp.104.1\lib\net4\RestSharp.dll</HintPath>
+      <HintPath>..\packages\RestSharp.104.1\lib\net4\RestSharp.dll</HintPath>
+      <Private>True</Private>
     </Reference>
+    <Reference Include="RestSharp" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Net" />
+    <Reference Include="System.Numerics" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.fs" />
